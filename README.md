@@ -11,6 +11,8 @@ RetinaNet的pytorch实现，支持多卡分布式训练
 **请确保已经安装pycocotools以及1.1.0版本以上的pytorch**
 
 # 性能
+![测试结果](https://raw.githubusercontent.com/buddhisant/RetinaNet/main/performance.png)
+
 |  | map | 推理速度 |
 |:-:|:-:|:-:|
 |本文 | | |
