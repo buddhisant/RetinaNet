@@ -13,7 +13,7 @@ from tqdm import tqdm
 from retina import retinanet
 from dataloader import build_dataloader
 
-def tttt(epochs_tested):
+def test(epochs_tested):
     is_train=False
     transforms = transform.build_transforms(is_train=is_train)
     coco_dataset = dataset.COCODataset(is_train=is_train, transforms=transforms)
