@@ -109,7 +109,7 @@ def train(is_dist,start_epoch,local_rank):
                 f.write(i+"\n")
 
 def main():
-    parser=argparse.ArgumentParser(description="Faster RCNN")
+    parser=argparse.ArgumentParser(description="RetinaNet")
     parser.add_argument("--local_rank", type=int, default=0)
     parser.add_argument("--start_epoch", type=int, default=1)
     parser.add_argument("--dist",action="store_true",default=False)
